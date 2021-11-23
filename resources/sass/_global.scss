@@ -1,0 +1,20 @@
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+    .card {
+        color: #212529;
+    }
+}
+
+.details {
+    padding-top: 5px;
+}
